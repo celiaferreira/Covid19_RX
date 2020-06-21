@@ -53,9 +53,12 @@ O repositório está organizado da seguinte forma:
     
   - 4.2 [Data Generation](https://) 
   
-    Recorrendo a ligeiras translaões e rotações das imagens COVID no conjunto de treino, são quadruplicados os casos COVID no conjunto de treino.
+    Recorrendo a ligeiras translaões e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino.
+
+Nas secções seguintes serão apresentados e comparados modelos recorrendo a estes 2 tipos de técnica para aumentar e balancear datasets. 
 
 
+* Capítulo 5: O
 
 
 
