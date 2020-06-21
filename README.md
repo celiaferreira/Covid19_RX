@@ -61,7 +61,7 @@ O repositório está organizado da seguinte forma:
 * <b>Capítulo 6</b>: Modelos de machine learning
 
   Esta secção apresenta e avalia o poder preditivo de modelos de machine learning tradicionais na identificação do COVID-19 em imagens.
-  São testados random forests, KNN, Boosting e ensembles de modelos, para dados obtidos por oversampling e por data generation.
+  São testados random forests, KNN, Boosting e ensembles de modelos, para dados de treino aumentados por oversampling e por data generation.
 
   - 6.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_ML_SMOTE.ipynb)
 
@@ -69,6 +69,8 @@ O repositório está organizado da seguinte forma:
   
 
 * <b>Capítulo 7</b>: Modelos de deep learning
+
+    Nesta secção são apresentadas redes neuronais convolucionais, sequências e recorrendo à API funcional, e também um processo de otimização de hiperparâmetros, também para dados de treino aumentados por oversampling e por data generation.
 
   - 7.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/7_1_DL_SMOTE.ipynb)
 
