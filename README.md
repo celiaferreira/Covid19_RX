@@ -70,7 +70,7 @@ O repositório está organizado da seguinte forma:
 
 * <b>Capítulo 7</b>: Modelos de deep learning
 
-  - 7.1 [Oversampling](https://)
+  - 7.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/7_1_DL_SMOTE.ipynb)
 
   - 7.2 [Data Generation](https://) 
   
