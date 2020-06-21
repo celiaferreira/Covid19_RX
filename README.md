@@ -82,9 +82,11 @@ O repositório está organizado da seguinte forma:
   Nesta seção avalia-se a capacidade preditiva de duas redes pré-treinadas na identificação do COVID-19: InceptionResNetV2 e ResNet50.
   São testadas três configurações para as camadas convolucionais:
   
-    * Pesos não treináveis (frozen)
-    * Pesos das últimas camadas treináveis (fine tuning)
-    * Pesos treináveis (utilização da arquitetura da rede)
+     a. Pesos não treináveis (frozen)
+     
+     b. Pesos das últimas camadas treináveis (fine tuning)
+     
+     c. Pesos treináveis (utilização da arquitetura da rede)
 
   - 8.1 [Oversampling](https://)
 
