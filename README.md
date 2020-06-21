@@ -40,7 +40,7 @@ O repositório está organizado da seguinte forma:
   
   De modo a obter uma maior compreensão dos dados, esta secção inclui:
   
-  - visualização das imagens de input 
+  - Visualização das imagens de input 
   - Contabilização das labels
   - Análise de pacientes COVID
 
