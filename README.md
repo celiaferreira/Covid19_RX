@@ -38,11 +38,7 @@ O repositório está organizado da seguinte forma:
   
 * Capítulo 3: [Análises exploratórias de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/3_AnaliseDados.ipynb)
   
-  De modo a obter uma maior compreensão dos dados, esta secção inclui:
-  
-  - Visualização das imagens de input 
-  - Contabilização das labels
-  - Análise de pacientes COVID
+  De modo a obter uma maior compreensão dos dados, esta secção inclui visualização das imagens de input, contabilização das labels e análise de pacientes COVID.
 
 * Capítulo 4: Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o registo de dados.
 
@@ -58,7 +54,7 @@ O repositório está organizado da seguinte forma:
 Nas secções seguintes serão apresentados e comparados modelos recorrendo a estes 2 tipos de técnica para aumentar e balancear datasets. 
 
 
-* Capítulo 5: O
+* Capítulo 5: [Funções auxiliares]()
 
 
 
