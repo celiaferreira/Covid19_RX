@@ -35,7 +35,16 @@ O repositório está organizado da seguinte forma:
 * Capítulo 2. [Pré-processamento de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/2_PreProcessamento.ipynb)
 
   Nesta secção faz-se o reshape e standardização das imagens, o one-hot-encoding das labels e a partição dos dados em conjuntos de treino, validação e teste.
+  
+* Capítulo 3: [Análises exploratórias de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/3_AnaliseDados.ipynb)
+  
+  De modo a obter uma maior compreensão dos dados, esta secção inclui:
+  
+  - visualização das imagens de input 
+  - Contabilização das labels
+  - Análise de pacientes COVID
 
+* Capítulo 4:
 
 
 
