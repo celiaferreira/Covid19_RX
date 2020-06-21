@@ -63,7 +63,7 @@ O repositório está organizado da seguinte forma:
   Esta secção apresenta e avalia o poder preditivo de modelos de machine learning tradicionais na identificação do COVID-19 em imagens.
   São testados random forests, KNN, Boosting e ensembles de modelos, para dados de treino aumentados por oversampling e por data generation.
 
-  - 6.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_ML_SMOTE.ipynb)
+  - 6.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_MachineLearning_SMOTE.ipynb)
 
   - 6.2 [Data Generation](https://) 
   
