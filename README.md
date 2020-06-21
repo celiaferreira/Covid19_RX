@@ -28,8 +28,7 @@ Este repositório inclui propostas de modelos de <b>machine learning</b> e <b>de
 
 O repositório está organizado da seguinte forma:
 
-1. [Imporatação de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/1_ImportarDados.ipynb)
-
+1. [Importação de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/1_ImportarDados.ipynb)
 Para garantir o maior número de dados para um treino adequado, foram recolhidos dados de várias fontes: Kaggle e github.
 
 2. [Pré-processamento de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/2_PreProcessamento.ipynb)
