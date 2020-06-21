@@ -16,7 +16,7 @@ Este repositório inclui propostas de modelos de <b>machine learning</b> e <b>de
 * Porém, a análise de raios-X consome preciosos recursos humanos e tempo, pelo que o desenvolvimento de um sistema de análise automática de raios-X se constitui uma mais-valia. É este o objetivo deste projeto. 
 
 
-### Objetivos:
+### Objetivos
 
 - Identificar automaticamente pneumonia em raios-X
 - Devido à escassez atual de dados sobre eventos Covid, usar modelos generativos
@@ -24,7 +24,7 @@ Este repositório inclui propostas de modelos de <b>machine learning</b> e <b>de
 - Interpretar resultados
 
 
-### Índice:
+### Índice
 
 O repositório está organizado da seguinte forma:
 
