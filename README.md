@@ -72,7 +72,7 @@ O repositório está organizado da seguinte forma:
 
     Nesta secção são apresentadas redes neuronais convolucionais, sequências e recorrendo à API funcional, e também um processo de otimização de hiperparâmetros, também para dados de treino aumentados por oversampling e por data generation.
 
-  - 7.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/7_1_DL_SMOTE.ipynb)
+  - 7.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/7_1_DeepLearning_SMOTE.ipynb)
 
   - 7.2 [Data Generation](https://) 
   
