@@ -58,5 +58,19 @@ O repositório está organizado da seguinte forma:
 
   Neste capítulo estão parametrizadas funções que simplificarão os outputs dos modelos desenvolvidos: métricas, matriz de confusao, plots da evolução da accuracy e da loss por epoch e visualização de camadas convolucionais e fully connected.
 
-* <b>Capítulo 6</b>: 
+* <b>Capítulo 6</b>: [Modelos de machine learning](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_ML_SMOTE.ipynb)
+
+  - 6.1 [Oversampling](https://
+
+  - 6.2 [Data Generation](https://) 
+  
+
+* <b>Capítulo 7</b>: [Modelos de transfer learning](https://)
+
+  - 7.1 [Oversampling](https://
+
+  - 7.2 [Data Generation](https://) 
+
+
+* <b>Capítulo 8</b>: [Conclusões](https://)
 
