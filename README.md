@@ -51,7 +51,7 @@ O repositório está organizado da seguinte forma:
   
     Recorrendo a ligeiras translaões e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino.
 
-Nas secções seguintes serão apresentados e comparados modelos recorrendo a estes 2 tipos de técnica para aumentar e balancear datasets. 
+  Nas secções seguintes serão apresentados e comparados modelos recorrendo a estes 2 tipos de técnica para aumentar e balancear datasets. 
 
 
 * Capítulo 5: [Funções auxiliares](https://github.com/celiaferreira/Covid19_RX/blob/master/5_FuncoesAuxiliares.ipynb)
