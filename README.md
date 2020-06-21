@@ -44,8 +44,16 @@ O repositório está organizado da seguinte forma:
   - Contabilização das labels
   - Análise de pacientes COVID
 
-* Capítulo 4:
+* Capítulo 4: Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o registo de dados.
 
+  - 4.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/4_1_SMOTE.ipynb)
+
+    Utilizando a técnica de oversampling SMOTE (Sythetic Minority Oversampling TEchnique) são geradas imagens no conjunto de treino de modo a que o dataset fique balanceado.
+    
+    
+  - 4.2 [Data Generation](https://) 
+  
+    Recorrendo a ligeiras translaões e rotações das imagens COVID no conjunto de treino, são quadruplicados os casos COVID no conjunto de treino.
 
 
 
