@@ -58,5 +58,5 @@ O repositório está organizado da seguinte forma:
 
   Neste capítulo estão parametrizadas funções que simplificarão os outputs dos modelos desenvolvidos: métricas, matriz de confusao, plots da evolução da accuracy e da loss por epoch e visualização de camadas convolucionais e fully connected.
 
-
+* <b>Capítulo 6</b>: 
 
