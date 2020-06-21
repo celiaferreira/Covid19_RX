@@ -58,9 +58,12 @@ O repositório está organizado da seguinte forma:
 
   Neste capítulo estão parametrizadas funções que simplificarão os outputs dos modelos desenvolvidos: métricas, matriz de confusao, plots da evolução da accuracy e da loss por epoch e visualização de camadas convolucionais e fully connected.
 
-* <b>Capítulo 6</b>: [Modelos de machine learning](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_ML_SMOTE.ipynb)
+* <b>Capítulo 6</b>: Modelos de machine learning
 
-  - 6.1 [Oversampling](https://
+  Esta secção apresenta e avalia o poder preditivo de modelos de machine learning tradicionais na identificação do COVID-19 em imagens.
+  São testados random forests, KNN, Boosting e ensembles de modelos, para dados obtidos por oversampling e por data generation..
+
+  - 6.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_ML_SMOTE.ipynb)
 
   - 6.2 [Data Generation](https://) 
   
