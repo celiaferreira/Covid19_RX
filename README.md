@@ -68,12 +68,19 @@ O repositório está organizado da seguinte forma:
   - 6.2 [Data Generation](https://) 
   
 
-* <b>Capítulo 7</b>: [Modelos de transfer learning](https://)
+* <b>Capítulo 7</b>: Modelos de deep learning
 
   - 7.1 [Oversampling](https://)
 
   - 7.2 [Data Generation](https://) 
+  
+  
+* <b>Capítulo 8</b>: Modelos de transfer learning
+
+  - 8.1 [Oversampling](https://)
+
+  - 8.2 [Data Generation](https://) 
 
 
-* <b>Capítulo 8</b>: [Conclusões](https://)
+* <b>Capítulo 9</b>: [Conclusões](https://)
 
