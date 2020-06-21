@@ -24,7 +24,7 @@ Este repositório inclui propostas de modelos de <b>machine learning</b> e <b>de
 - Interpretar resultados
 
 
-### Organização:
+### Índice:
 
 O repositório está organizado da seguinte forma:
 
