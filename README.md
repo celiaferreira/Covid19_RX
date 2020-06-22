@@ -34,22 +34,22 @@ O repositório está organizado da seguinte forma:
 
 * <b>Capítulo 2</b>. [Pré-processamento de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/2_PreProcessamento.ipynb)
 
-  Nesta secção faz-se o reshape e standardização das imagens, o one-hot-encoding das labels e a partição dos dados em conjuntos de treino, validação e teste.
+  Nesta secção faz-se o reshape e standardização das imagens, o one-hot-encoding das labels a prever e a partição dos dados em conjuntos de treino, validação e teste.
   
 * <b>Capítulo 3</b>: [Análises exploratórias de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/3_AnaliseDados.ipynb)
   
   De modo a obter uma maior compreensão dos dados, esta secção inclui visualização das imagens de input, contabilização das labels e análise de pacientes COVID.
 
-* <b>Capítulo 4</b>: Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o número de dados.
+* <b>Capítulo 4</b>: Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o número de dados: o oversampling e o data generation.
 
   - 4.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/4_1_Oversampling_SMOTE.ipynb)
 
-    Utilizando a técnica de oversampling SMOTE (Sythetic Minority Oversampling TEchnique) são geradas imagens no conjunto de treino de modo a que o dataset fique balanceado.
+    Utilizando a técnica de oversampling SMOTE (Sythetic Minority Oversampling TEchnique) são geradas imagens no conjunto de treino de modo a que o dataset fique <b>balanceado</b>.
     
     
   - 4.2 [Data Generation](https://) 
   
-    Recorrendo a ligeiras translaões e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino.
+    Recorrendo a ligeiras translaões e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino. Destaca-se o maior esforço computacional desta técnica, comparando com o oversampling.
 
   Nas secções seguintes serão apresentados e comparados modelos recorrendo a estes 2 tipos de técnica para aumentar e balancear datasets. 
 
