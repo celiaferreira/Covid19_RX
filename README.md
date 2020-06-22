@@ -70,9 +70,11 @@ O repositório está organizado da seguinte forma:
 
 * <b>Capítulo 7</b>: Modelos de deep learning
 
-    Nesta secção são apresentadas redes neuronais convolucionais, sequências e recorrendo à API funcional, e também um processo de otimização de hiperparâmetros, também para dados de treino aumentados por oversampling e por data generation.
+    Nesta secção são apresentadas <b>redes neuronais convolucionais, sequênciais e recorrendo à API funcional</b>, e também um processo de <b>otimização de hiperparâmetros</b>, também para dados de treino aumentados por oversampling e por data generation.
 
   - 7.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/7_1_DeepLearning_SMOTE.ipynb)
+  
+    Incorpora-se nesta secção também uma <b>análise aos erros</b> cometidos pelo modelo ótimo na previsão do COVID-19 e a <b>visualização da aprendizagem do modelo</b>.
 
   - 7.2 [Data Generation](https://) 
   
