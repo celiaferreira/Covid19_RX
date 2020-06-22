@@ -51,7 +51,7 @@ O repositório está organizado da seguinte forma:
   
     Recorrendo a ligeiras translaões e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino. Destaca-se o maior esforço computacional desta técnica, comparando com o oversampling.
 
-  Nas secções seguintes serão apresentados e comparados modelos recorrendo a estes 2 tipos de técnica para aumentar e balancear datasets. 
+  Nas secções seguintes são apresentados e comparados modelos desenvolvidos recorrendo a estas 2 técnicas para aumentar e balancear o dataset de treino.
 
 
 * <b>Capítulo 5</b>: [Funções auxiliares](https://github.com/celiaferreira/Covid19_RX/blob/master/5_FuncoesAuxiliares.ipynb)
