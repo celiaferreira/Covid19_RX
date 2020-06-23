@@ -89,5 +89,5 @@ O repositório está organizado da seguinte forma:
   - 8.2 [Data Generation](https://) 
 
 
-* <b>Capítulo 9</b>: [Conclusões](https://)
+* <b>Capítulo 9</b>: [Conclusões](https://github.com/celiaferreira/Covid19_RX/blob/master/9_Conclusoes.ipynb)
 
