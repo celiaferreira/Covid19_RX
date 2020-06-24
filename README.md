@@ -100,3 +100,15 @@ O repositório está organizado da seguinte forma:
 
 * <b>Capítulo 9</b>: [Conclusões](https://github.com/celiaferreira/Covid19_RX/blob/master/9_Conclusoes.ipynb)
 
+  - Como técnica para aumentar registos e balancear o dataset de treino recomenda-se o oversamplig, pela melhor performance e pelo menor esforço computacional requerido.
+  - Mesmo num problema de classificação de imagens, os modelos de machine learning tradicionais apresentam uma performance competitiva, superior a 90%.
+  - De um modo geral, os modelos de deep learning são mais preditivos, destacando-se o modelo otimizado.
+  - Modelos API (mais complexos) apresentam performance competitiva, mas não superam o modelo ótimo.
+  - Os modelos de transfer learning com pesos congelados não se revelaram competitivos. O melhor resultado foi obtido pela utilização da arquitetura da rede, mas permitindo o treino dos pesos direcionado para o problema em análise.
+  - Tendo em consideração a performance global, o recall dos casos COVID e a ausência de overfitting, **propõe-se como ideal o modelo obtido mediante otimização de hiperparâmetros**, que apresenta a seguinte topologia:
+  
+
+
+
+
+
