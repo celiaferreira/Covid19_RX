@@ -93,7 +93,7 @@ O repositório está organizado da seguinte forma:
 
   - 8.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/8_1_TransferLearning_SMOTE.ipynb)
 
-  - 8.2 [Data Generation](https://) 
+  - 8.2 [Data Generation](https://github.com/celiaferreira/Covid19_RX/blob/master/8_2_TransferLearning_DataGen.ipynb) 
 
 
 * <b>Capítulo 9</b>: [Conclusões](https://github.com/celiaferreira/Covid19_RX/blob/master/9_Conclusoes.ipynb)
