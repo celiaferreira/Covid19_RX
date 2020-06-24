@@ -42,7 +42,7 @@ O repositório está organizado da seguinte forma:
 
 * <b>Capítulo 4</b>: Data augmentation
 
-  Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o número de dados: o oversampling e o data generation.
+  Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma melhor aprendizagem, serão testadas duas abordagens para aumentar o número de dados: o oversampling e o data generation.
 
   - 4.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/4_1_Oversampling_SMOTE.ipynb)
 
