@@ -120,4 +120,4 @@ O repositório está organizado da seguinte forma:
         model.add(layers.Dense(3, activation='softmax'))
         model.compile(optimizers.Adam(lr=0.001),loss='sparse_categorical_crossentropy',metrics=['accuracy'])
 
-  Este modelo distingue o COVID-19, de outras pneumonias e das situações normais com uma precisão de 97,3% no conjunto de teste, tendo um recall de 98,1% dos casos COVID-19.
+    Este modelo distingue o COVID-19, de outras pneumonias e das situações normais com uma **precisão de 97,3%** no conjunto de teste, tendo um **recall de 98,1% dos casos COVID-19**.
