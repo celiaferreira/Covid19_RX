@@ -67,7 +67,7 @@ O repositório está organizado da seguinte forma:
 
   - 6.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_MachineLearning_SMOTE.ipynb)
 
-  - 6.2 [Data Generation](https://) 
+  - 6.2 [Data Generation](https://github.com/celiaferreira/Covid19_RX/blob/master/6_2_MachineLearning_DataGen.ipynb) 
   
 
 * <b>Capítulo 7</b>: Modelos de deep learning
