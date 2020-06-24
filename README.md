@@ -79,10 +79,9 @@ O repositório está organizado da seguinte forma:
   - 7.2 Data Generation
   
     Nesta secção são apresentados modelos para target com 3 labels e target com 4 labels:
-    
-    [Data Generation: 3 labels] (https://github.com/celiaferreira/Covid19_RX/blob/master/7_2_DeepLearning_DataGen_3lab.ipynb)
-    
-    [Data Generation: 4 labels] (https://)
+        
+      [Data Generation: 3 labels](https://github.com/celiaferreira/Covid19_RX/blob/master/7_2_DeepLearning_DataGen_3lab.ipynb) 
+      
     
   
   
