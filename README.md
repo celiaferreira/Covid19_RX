@@ -106,9 +106,18 @@ O repositório está organizado da seguinte forma:
   - Modelos API (mais complexos) apresentam performance competitiva, mas não superam o modelo ótimo.
   - Os modelos de transfer learning com pesos congelados não se revelaram competitivos. O melhor resultado foi obtido pela utilização da arquitetura da rede, mas permitindo o treino dos pesos direcionado para o problema em análise.
   - Tendo em consideração a performance global, o recall dos casos COVID e a ausência de overfitting, **propõe-se como ideal o modelo obtido mediante otimização de hiperparâmetros**, que apresenta a seguinte topologia:
-  
 
+        model = models.Sequential()
+        model.add(layers.Conv2D(128, (3, 3), activation='relu', input_shape=(200, 200, 1)))
+        model.add(layers.MaxPooling2D((2, 2)))
+        model.add(layers.Conv2D(128, (3, 3), activation='relu'))
+        model.add(layers.MaxPooling2D((2, 2)))
+        model.add(layers.Conv2D(128, (3, 3), activation='relu'))
+        model.add(layers.MaxPooling2D((2, 2)))
+        model.add(layers.Flatten())
+        model.add(layers.Dense(64, activation='relu'))
+        model.add(layers.Dense(16, activation='relu'))
+        model.add(layers.Dense(3, activation='softmax'))
+        model.compile(optimizers.Adam(lr=0.001),loss='sparse_categorical_crossentropy',metrics=['accuracy'])
 
-
-
-
+  Este modelo distingue o COVID-19, de outras pneumonias e das situações normais com uma precisão de 97,3% no conjunto de teste, tendo um recall de 98,1% dos casos COVID-19.
