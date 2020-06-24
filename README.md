@@ -40,7 +40,9 @@ O repositório está organizado da seguinte forma:
   
   De modo a obter uma maior compreensão dos dados, esta secção inclui visualização das imagens de input, contabilização das labels e análise de pacientes COVID.
 
-* <b>Capítulo 4</b>: Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o número de dados: o oversampling e o data generation.
+* <b>Capítulo 4</b>: Data augmentation
+
+  Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma aprendizagem efetiva serão testadas duas abordagens para aumentar o número de dados: o oversampling e o data generation.
 
   - 4.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/4_1_Oversampling_SMOTE.ipynb)
 
