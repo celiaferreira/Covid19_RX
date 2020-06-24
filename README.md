@@ -47,7 +47,7 @@ O repositório está organizado da seguinte forma:
     Utilizando a técnica de oversampling SMOTE (Sythetic Minority Oversampling TEchnique) são geradas imagens no conjunto de treino de modo a que o dataset fique <b>balanceado</b>.
     
     
-  - 4.2 [Data Generation](https://) 
+  - 4.2 [Data Generation](https://github.com/celiaferreira/Covid19_RX/blob/master/4_2_DataGeneration.ipynb) 
   
     Recorrendo a ligeiras translações e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino. Destaca-se o maior esforço computacional desta técnica, comparando com o oversampling.
 
