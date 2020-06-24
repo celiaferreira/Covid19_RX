@@ -49,7 +49,7 @@ O repositório está organizado da seguinte forma:
     
   - 4.2 [Data Generation](https://) 
   
-    Recorrendo a ligeiras translaões e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino. Destaca-se o maior esforço computacional desta técnica, comparando com o oversampling.
+    Recorrendo a ligeiras translações e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino. Destaca-se o maior esforço computacional desta técnica, comparando com o oversampling.
 
   Nas secções seguintes são apresentados e comparados modelos desenvolvidos recorrendo a estas 2 técnicas para aumentar e balancear o dataset de treino.
 
