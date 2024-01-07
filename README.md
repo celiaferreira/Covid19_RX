@@ -1,111 +1,107 @@
-# Identificação de COVID-19 em imagens pulmonares
+# Identification of COVID-19 in lung X-ray images
 
-Aprendizagem Automática II - Universidade do Minho
+Machine Learning II - University of Minho
 
 * Célia Manuela Fernandes Ferreira
 
 * Mohammad Reza Tabrizi
 
-Este repositório inclui propostas de modelos de <b>machine learning</b> e <b>deep learning</b> que visam identificar o COVID-19 em imagens pulmonares.
+This repository includes proposals for <b>machine learning</b> and <b>deep learning</b> models that aim to identify COVID-19 in lung images.
 
-### Motivação
-* Os testes COVID-19 são difíceis de obter: não são suficientes para testar toda população, o que dificulta o diagnóstico atempado e a mitigação do contágio. Este cenário pode ainda potenciar a ocorrência de situações oportunistas, com a criação de testes falsos.
+### Motivation
+* COVID-19 tests are difficult to obtain: there are not enough to test the entire population, which makes timely diagnosis and mitigation of contagion difficult. This scenario can also increase the occurrence of opportunistic situations, with the creation of false tests.
 
-* Estas limitações podem ser mitigadas com o recurso a outras formas de diagnóstico. Como o COVID-19 ataca as células epiteliais que revestem o trato respiratório, os raios-X podem ser usados para analisar a saúde pulmonares de um paciente e identificar o COVID-19 sem os kits de teste usuais.
+* These limitations can be mitigated by using other forms of diagnosis. Because COVID-19 attacks the epithelial cells lining the respiratory tract, X-rays can be used to analyze a patient's lung health and identify COVID-19 without the usual test kits.
 
-* Porém, a análise de raios-X consome preciosos recursos humanos e tempo, pelo que o desenvolvimento de um sistema de análise automática de raios-X se constitui uma mais-valia. É este o objetivo deste projeto. 
+* However, X-ray analysis consumes precious human resources and time, so the development of an automatic X-ray analysis system represents an added value. This is the objective of this project.
+
+### Goals
+
+- Automatically identify pneumonia in X-rays
+- Due to the current scarcity of data on Covid events, use generative models
+- Compare the performance of traditional machine learning and deep learning algorithms
+- Interpret results
 
 
-### Objetivos
+### Index
 
-- Identificar automaticamente pneumonia em raios-X
-- Devido à escassez atual de dados sobre eventos Covid, usar modelos generativos
-- Comparar a performance de algoritmos tradicionais de machine learning e deep learning
-- Interpretar resultados
+The repository is organized as follows:
 
+* <b>Chapter 1</b>: [Data import](https://github.com/celiaferreira/Covid19_RX/blob/master/1_ImportarDados.ipynb)
 
-### Índice
+  To ensure the greatest amount of data for adequate training, data was collected from several sources: Kaggle and github.
 
-O repositório está organizado da seguinte forma:
+* <b>Chapter 2</b>: [Data Preprocessing](https://github.com/celiaferreira/Covid19_RX/blob/master/2_PreProcessamento.ipynb)
 
-* <b>Capítulo 1</b>: [Importação de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/1_ImportarDados.ipynb)
-
-  Para garantir o maior número de dados para um treino adequado, foram recolhidos dados de várias fontes: Kaggle e github.
-
-* <b>Capítulo 2</b>: [Pré-processamento de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/2_PreProcessamento.ipynb)
-
-  Nesta secção faz-se o reshape e standardização das imagens, o processamento das labels a prever e a partição dos dados em conjuntos de treino, validação e teste.
+  This section reshapes and standardizes the images, processes the labels to be predicted and divides the data into training, validation and test sets.
   
-* <b>Capítulo 3</b>: [Análises exploratórias de dados](https://github.com/celiaferreira/Covid19_RX/blob/master/3_AnaliseDados.ipynb)
+* <b>Chapter 3</b>: [Exploratory data analysis](https://github.com/celiaferreira/Covid19_RX/blob/master/3_AnaliseDados.ipynb)
   
-  De modo a obter uma maior compreensão dos dados, esta secção inclui visualização das imagens de input, contabilização das labels e análise de pacientes COVID.
+ In order to gain a greater understanding of the data, this section includes visualization of input images, counting of labels and analysis of COVID patients.
 
-* <b>Capítulo 4</b>: Data augmentation
+* <b>Chapter 4</b>: Data augmentation
 
-  Os dados COVID-19 estão ainda pouco disponíveis. Para ultrapassar esta limitação e permitir uma melhor aprendizagem, serão testadas duas abordagens para aumentar o número de dados: o oversampling e o data generation.
+  COVID-19 data is still poorly available. To overcome this limitation and allow better learning, two approaches will be tested to increase the number of data: oversampling and data generation.
 
   - 4.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/4_1_Oversampling_SMOTE.ipynb)
 
-    Utilizando a técnica de oversampling SMOTE (Sythetic Minority Oversampling TEchnique) são geradas imagens no conjunto de treino de modo a que o dataset fique <b>balanceado</b>.
+  Using the SMOTE (Sythetic Minority Oversampling TEchnique) oversampling technique, images are generated in the training set so that the dataset is <b>balanced</b>.
     
     
   - 4.2 [Data Generation](https://github.com/celiaferreira/Covid19_RX/blob/master/4_2_DataGeneration.ipynb) 
   
-    Recorrendo a ligeiras translações e rotações das imagens COVID-19 no conjunto de treino, são quadruplicados os casos COVID-19 no conjunto de treino. Destaca-se o maior esforço computacional desta técnica, comparando com o oversampling.
+  Using slight translations and rotations of the COVID-19 images in the training set, the COVID-19 cases in the training set are quadrupled. The greater computational effort of this technique stands out, compared to oversampling.
 
-  Nas secções seguintes são apresentados e comparados modelos desenvolvidos recorrendo a estas 2 técnicas usadas para aumentar e balancear o dataset de treino.
+  In the following sections, models developed using these 2 techniques used to increase and balance the training dataset are presented and compared.
 
 
-* <b>Capítulo 5</b>: [Funções auxiliares](https://github.com/celiaferreira/Covid19_RX/blob/master/5_FuncoesAuxiliares.ipynb)
+* <b>Chapter 5</b>: [Auxiliary functions](https://github.com/celiaferreira/Covid19_RX/blob/master/5_FuncoesAuxiliares.ipynb)
 
-  Neste capítulo estão parametrizadas funções que simplificarão os outputs dos modelos desenvolvidos: métricas, matriz de confusao, plots da evolução da accuracy e da loss por epoch e visualização de camadas convolucionais e fully connected.
+ In this chapter, functions are parameterized that will simplify the outputs of the developed models: metrics, confusion matrix, plots of the evolution of accuracy and loss per epoch and visualization of convolutional and fully connected layers.
 
-* <b>Capítulo 6</b>: Modelos de machine learning
+* <b>Chapter 6</b>: Machine learning models
 
-  Esta secção apresenta e avalia o poder preditivo de modelos de machine learning tradicionais na identificação do COVID-19 em imagens.
-  São testados random forests, KNN, Boosting e ensembles de modelos, para dados de treino aumentados por oversampling e por data generation.
+  This section presents and evaluates the predictive power of traditional machine learning models in identifying COVID-19 in images.
+  Random forests, KNN, Boosting and model ensembles are tested, for training data augmented by oversampling and data generation.
 
   - 6.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/6_1_MachineLearning_SMOTE.ipynb)
 
   - 6.2 [Data Generation](https://github.com/celiaferreira/Covid19_RX/blob/master/6_2_MachineLearning_DataGen.ipynb) 
   
+* <b>Chapter 7</b>: Deep learning models
 
-* <b>Capítulo 7</b>: Modelos de deep learning
-
-    Nesta secção são apresentadas <b>redes neuronais convolucionais, sequênciais e recorrendo à API funcional</b>, e também um processo de <b>otimização de hiperparâmetros</b>, também para dados de treino aumentados por oversampling e por data generation.
-
+    This section presents <b>convolutional, sequential neural networks using the functional API</b>, as well as a <b>hyperparameter optimization process</b>, also for training data augmented by oversampling and data generation.
+  
   - 7.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/7_1_DeepLearning_SMOTE.ipynb)
   
-    Incorpora-se nesta secção também uma <b>análise aos erros</b> cometidos pelo modelo ótimo na previsão do COVID-19 e a <b>visualização da aprendizagem do modelo</b>.
+    This section also includes an <b>analysis of the errors</b> made by the optimal model in predicting COVID-19 and the <b>visualization of the model's learning</b>.
 
   - 7.2 Data Generation
   
-    Nesta secção são apresentados modelos para target com 3 labels e target com 4 labels:
+    This section presents models for targets with 3 labels and targets with 4 labels:
         
       [Data Generation: 3 labels](https://github.com/celiaferreira/Covid19_RX/blob/master/7_2_DeepLearning_DataGen_3lab.ipynb) 
       
       [Data Generation: 4 labels](https://github.com/celiaferreira/Covid19_RX/blob/master/7_3_DeepLearning_DataGen_4lab.ipynb) 
          
-  
-  
-* <b>Capítulo 8</b>: Modelos de transfer learning
+* <b>Chapter 8</b>: Transfer learning models
 
-  Nesta seção avalia-se a capacidade preditiva de duas redes pré-treinadas na identificação do COVID-19: InceptionResNetV2 e ResNet50.
-  São testadas três configurações para as camadas convolucionais: Pesos não treináveis (frozen), Pesos das últimas camadas treináveis (fine tuning) e Pesos treináveis (utilização da arquitetura da rede).
+  In this section we evaluate the predictive capacity of two pre-trained networks in identifying COVID-19: InceptionResNetV2 and ResNet50.
+  Three configurations for the convolutional layers are tested: Non-trainable weights (frozen), Weights of the last trainable layers (fine tuning) and Trainable weights (use of the network architecture).
 
   - 8.1 [Oversampling](https://github.com/celiaferreira/Covid19_RX/blob/master/8_1_TransferLearning_SMOTE.ipynb)
 
   - 8.2 [Data Generation](https://github.com/celiaferreira/Covid19_RX/blob/master/8_2_TransferLearning_DataGen.ipynb) 
 
 
-* <b>Capítulo 9</b>: [Conclusões](https://github.com/celiaferreira/Covid19_RX/blob/master/9_Conclusoes.ipynb)
+* <b>Capítulo 9</b>: [Conclusion](https://github.com/celiaferreira/Covid19_RX/blob/master/9_Conclusoes.ipynb)
 
-  - Como técnica para aumentar registos e balancear o dataset de treino recomenda-se o oversamplig, pela melhor performance e pelo menor esforço computacional requerido.
-  - Mesmo num problema de classificação de imagens, os modelos de machine learning tradicionais apresentam uma performance competitiva, superior a 90%.
-  - De um modo geral, os modelos de deep learning são mais preditivos, destacando-se o modelo otimizado.
-  - Modelos API (mais complexos) apresentam performance competitiva, mas não superam o modelo ótimo.
-  - Os modelos de transfer learning com pesos congelados não se revelaram competitivos. O melhor resultado foi obtido pela utilização da arquitetura da rede, mas permitindo o treino dos pesos direcionado para o problema em análise.
-  - Tendo em consideração a performance global, o recall dos casos COVID e a ausência de overfitting, **propõe-se como ideal o modelo obtido mediante otimização de hiperparâmetros**, que apresenta a seguinte topologia:
+     - As a technique to increase records and balance the training dataset, oversampling is recommended, due to the better performance and less computational effort required.
+    - Even in an image classification problem, traditional machine learning models present a competitive performance, greater than 90%.
+    - In general, deep learning models are more predictive, with the optimized model standing out.
+    - API models (more complex) present competitive performance, but do not surpass the optimal model.
+    - Transfer learning models with frozen weights did not prove to be competitive. The best result was obtained by using the network architecture, but allowing the training of weights directed to the problem under analysis.
+    - Taking into account the global performance, the recall of COVID cases and the absence of overfitting, **the model obtained through hyperparameter optimization** is proposed as ideal, which presents the following topology:
 
         model = models.Sequential()
         model.add(layers.Conv2D(128, (3, 3), activation='relu', input_shape=(200, 200, 1)))
@@ -120,4 +116,4 @@ O repositório está organizado da seguinte forma:
         model.add(layers.Dense(3, activation='softmax'))
         model.compile(optimizers.Adam(lr=0.001),loss='sparse_categorical_crossentropy',metrics=['accuracy'])
 
-    Este modelo distingue o COVID-19, de outras pneumonias e das situações normais com uma **precisão de 97,3%** no conjunto de teste, tendo um **recall de 98,1% dos casos COVID-19**.
+  - This model distinguishes COVID-19 from other pneumonias and normal situations with an **accuracy of 97.3%** in the test set, with a **recall of 98.1% of COVID-19 cases**.
